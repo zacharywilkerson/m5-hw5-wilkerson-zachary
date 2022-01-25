@@ -27,6 +27,11 @@ section.about_me {
     padding: 0px 10px 10px 10px;
 }
 
+.about_me img {
+    float: left;
+    margin: 0 10px 0 5px;
+}
+
 /* Connect With Me */
 aside.connect {
     color: rgb(20, 91, 150);
@@ -74,10 +79,15 @@ nav.header {
 }
 
 nav a {
-    padding: 0 20px 0 20px;
+    padding: 20px 20px 20px 20px;
     text-decoration: none;
     color: rgb(20, 91, 150);
     text-transform: uppercase;
+}
+
+nav.header a:hover {
+    background-color: rgb(20, 91, 150);
+    color: white;
 }
 
 /* Footer */
