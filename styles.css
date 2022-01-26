@@ -11,6 +11,50 @@ body main {
     margin: auto;
 }
 
+/* Header */
+header {
+    background-color: white;
+    border-bottom: 3px solid black;
+    padding-top: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-right: 200px;
+}
+
+header p, nav.header {
+    display: inline-block;
+    max-width: 900px;
+    padding: 10px;
+}
+
+header p {
+    color: white;
+    background-color: rgb(20, 91, 150);
+    text-transform: uppercase;
+    font-family: 'Courier New';
+    margin-left: 270px;
+    margin-bottom: 0;
+}
+
+nav.header {
+    float: right;
+    margin-right: 350px;
+}
+
+nav a {
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: rgb(20, 91, 150);
+    text-transform: uppercase;
+}
+
+nav.header a:hover {
+    background-color: rgb(20, 91, 150);
+    color: white;
+}
+
 /* About Me */
 h1 {
     display: block;
@@ -36,7 +80,6 @@ section.about_me {
 aside.connect {
     color: rgb(20, 91, 150);
     float: right;
-    display: inline-block;
     max-width: 300px;
     background-color:  white;
     margin: 80px 50px 0px 0px;
@@ -45,49 +88,6 @@ aside.connect {
 
 aside.connect h2 {
     border-bottom: 3px solid black;
-}
-
-/* Header */
-header {
-    background-color: white;
-    border-bottom: 3px solid black;
-    padding: 15px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin-right: 200px;
-}
-
-header p, nav.header {
-    display: inline;
-    max-width: 900px;
-    padding: 10px;
-}
-
-header p {
-    color: white;
-    background-color: rgb(20, 91, 150);
-    text-transform: uppercase;
-    font-family: 'Courier New';
-    margin-left: 270px;
-}
-
-nav.header {
-    float: right;
-    margin-right: 350px;
-}
-
-nav a {
-    padding: 20px 20px 20px 20px;
-    text-decoration: none;
-    color: rgb(20, 91, 150);
-    text-transform: uppercase;
-}
-
-nav.header a:hover {
-    background-color: rgb(20, 91, 150);
-    color: white;
 }
 
 /* Footer */
@@ -99,8 +99,8 @@ main::after {
 
 footer {
     color: white;
-    background-color: rgb(0, 0, 0);
-    border-top: 3px solid rgb(20, 91, 150);
+    background-color: rgb(20, 91, 150);
+    border-top: 3px solid rgb(0, 0, 0);
     text-align: center;
     position: fixed;
     bottom: 0;
