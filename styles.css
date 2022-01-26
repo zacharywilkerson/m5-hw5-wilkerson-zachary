@@ -11,10 +11,17 @@ body main {
     margin: auto;
 }
 
+div.container {
+    max-width: 900px;
+    margin: auto;
+
+}
+
 /* Header */
 header {
     background-color: white;
     border-bottom: 3px solid black;
+    text-align: center;
     padding-top: 15px;
     position: fixed;
     top: 0;
@@ -34,7 +41,6 @@ header p {
     background-color: rgb(20, 91, 150);
     text-transform: uppercase;
     font-family: 'Courier New';
-    margin-left: 270px;
     margin-bottom: 0;
 }
 
@@ -64,11 +70,9 @@ h1 {
 
 section.about_me {
     max-width: 550px;
-    /* display: block; */
-    float: left;
+    display: inline-block;
     background-color: white;
-    margin: 80px 0px 0px 0px;
-    padding: 0px 10px 10px 10px;
+    margin-top: 80px;
 }
 
 .about_me img {
@@ -79,11 +83,12 @@ section.about_me {
 /* Connect With Me */
 aside.connect {
     color: rgb(20, 91, 150);
-    float: right;
+    display: inline-block;
+    vertical-align: top;
     max-width: 300px;
     background-color:  white;
-    margin: 80px 50px 0px 0px;
-    padding: 0px 10px 10px 10px;
+    margin-top: 80px;
+    margin-left: 30px;
 }
 
 aside.connect h2 {
